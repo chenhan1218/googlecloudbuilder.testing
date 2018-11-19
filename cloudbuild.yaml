@@ -1,0 +1,6 @@
+steps:
+- name: 'ubuntu:16.04'
+  args: ['ls', '-lah']
+- name: 'ubuntu:16.04'
+  args: ['./cloudbuild.sh']
+timeout: 86400s
